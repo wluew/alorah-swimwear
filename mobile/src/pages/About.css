@@ -1,0 +1,224 @@
+/* About Page Styles */
+
+.about-page {
+    min-height: 100vh;
+}
+
+/* Hero Section */
+.about-hero {
+    position: relative;
+    height: 60vh;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white;
+    overflow: hidden;
+}
+
+.about-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="1" fill="white" opacity="0.1"/></svg>');
+    opacity: 0.3;
+}
+
+.about-hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.about-hero-content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+
+.about-hero-content .subtitle {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--accent);
+    margin-bottom: 20px;
+    display: block;
+}
+
+.about-hero-content h1 {
+    font-size: clamp(64px, 10vw, 120px);
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 8px;
+}
+
+.about-hero-content p {
+    font-size: 20px;
+    opacity: 0.9;
+    font-style: italic;
+}
+
+/* Content Section */
+.about-content {
+    background: var(--bg-light);
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.about-grid.reverse {
+    direction: rtl;
+}
+
+.about-grid.reverse>* {
+    direction: ltr;
+}
+
+.about-text-block h2 {
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: var(--primary);
+}
+
+.about-text-block p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+
+.about-text-block p:last-child {
+    margin-bottom: 0;
+}
+
+.about-image {
+    aspect-ratio: 4/5;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.about-image:hover img {
+    transform: scale(1.05);
+}
+
+/* Closing Section */
+.about-closing {
+    background: var(--bg-white);
+    padding: 120px 5%;
+    text-align: center;
+}
+
+.closing-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.closing-text {
+    font-size: 22px;
+    line-height: 1.8;
+    color: var(--text-muted);
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.closing-content h3 {
+    font-size: 36px;
+    color: var(--primary);
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.closing-content .btn {
+    padding: 18px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+        margin-bottom: 80px;
+    }
+
+    .about-grid.reverse {
+        direction: ltr;
+    }
+
+    .about-text-block h2 {
+        font-size: 36px;
+    }
+
+    .about-text-block p {
+        font-size: 16px;
+    }
+
+    .about-hero {
+        height: 50vh;
+    }
+
+    .about-hero-content h1 {
+        font-size: clamp(48px, 10vw, 80px);
+    }
+
+    .closing-text {
+        font-size: 18px;
+    }
+
+    .closing-content h3 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-hero-content .subtitle {
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+
+    .about-hero-content p {
+        font-size: 16px;
+    }
+
+    .about-text-block h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .about-closing {
+        padding: 80px 5%;
+    }
+
+    .closing-text {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .closing-content h3 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+}

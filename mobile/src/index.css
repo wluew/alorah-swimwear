@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Color Palette - Tropical Luxe */
+  --primary: #008080;
+  /* Tropical Teal */
+  --primary-dark: #005f5f;
+  --secondary: #FF7F50;
+  /* Coral */
+  --accent: #F4D03F;
+  /* Sun Yellow */
+  --bg-light: #FDFCF9;
+  /* Soft Sand */
+  --bg-white: #ffffff;
+  --text-main: #1C1C1C;
+  --text-muted: #555555;
+  --border: #E5E1D8;
+
+  /* Mobile-optimized Spacing */
+  --section-padding: 60px 5%;
+  --container-max: 100%;
+  --mobile-padding: 20px;
+
+  /* Transitions */
+  --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Prevent horizontal scroll on mobile */
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Better tap targets on mobile */
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-main);
+  line-height: 1.6;
+  overflow-x: hidden;
+  /* Mobile font size optimization */
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Mobile-optimized heading sizes */
+h1 {
+  font-size: clamp(32px, 8vw, 48px);
+}
+
+h2 {
+  font-size: clamp(28px, 6vw, 36px);
+}
+
+h3 {
+  font-size: clamp(22px, 5vw, 28px);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-family: inherit;
+  transition: var(--transition);
+  /* Larger touch targets for mobile */
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--mobile-padding);
+}
+
+/* Base Animations - Lighter for mobile performance */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  transition-delay: var(--delay);
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeInUp 0.6s forwards;
+}
+
+/* Mobile-specific utilities */
+.mobile-only {
+  display: block;
+}
+
+.desktop-only {
+  display: none;
+}
+
+/* Improved image loading for mobile */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Touch-friendly scrolling */
+.scrollable {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* Hide scrollbar but keep functionality */
+.scrollable::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollable {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
