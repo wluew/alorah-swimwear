@@ -209,7 +209,7 @@
     }
 
     .about-closing {
-        padding: 80px 5%;
+        padding: 80px 5% 100px;
     }
 
     .closing-text {
@@ -220,5 +220,11 @@
     .closing-content h3 {
         font-size: 24px;
         margin-bottom: 30px;
+    }
+
+    .closing-content .btn {
+        padding: 16px 32px;
+        font-size: 14px;
+        white-space: nowrap;
     }
 }

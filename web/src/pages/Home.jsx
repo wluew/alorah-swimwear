@@ -91,17 +91,17 @@ const Home = () => {
                     </Reveal>
                     <Reveal duration="1.2s" delay="0.2s">
                         <div className="brand-story-content">
-                            <span className="subtitle">Tu esencia, siempre presente</span>
-                            <h2>Alorah: Vistiendo tu mejor versión</h2>
+                            <span className="subtitle">Tu esencia bajo el sol</span>
+                            <h2>Alorah: Vistiendo tus mejores días</h2>
                             <p>
-                                En Alorah, creemos que la relación con el mar es una forma de libertad. No diseñamos
-                                simplemente trajes de baño; creamos piezas que celebran a la mujer que se siente plena
-                                siendo ella misma, sin filtros y sin pretensiones.
+                                En Alorah, entendemos que la conexión con el mar no entiende de calendarios.
+                                No nacimos simplemente para crear bikinis; nacimos para celebrar la libertad de
+                                ser mujer y la magia de esos momentos eternos donde el agua y la piel se encuentran.
                             </p>
                             <p>
-                                Nuestra filosofía se basa en la creación consciente. Cada diseño es una combinación
-                                equilibrada de textiles premium y acabados impecables, pensados para abrazar tu cuerpo,
-                                nunca juzgarlo.
+                                Cada una de nuestras piezas nace de un proceso consciente y dedicado, pensado
+                                para abrazar tu cuerpo y asegurar que cada prenda sea tan resistente y cómoda
+                                como el ritmo de tu día a día.
                             </p>
                             <Link to="/about" className="btn btn-secondary" style={{ color: 'var(--text-main)', borderColor: 'var(--text-main)' }}>Leer más</Link>
                         </div>

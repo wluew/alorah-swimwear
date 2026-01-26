@@ -209,7 +209,8 @@
     }
 
     .about-closing {
-        padding: 80px 5%;
+        padding: 80px 5% 120px;
+        /* Incrementado el padding inferior */
     }
 
     .closing-text {
@@ -223,11 +224,14 @@
     }
 
     .closing-content .btn {
-        padding: 14px 24px;
+        padding: 16px 32px;
         width: auto;
-        max-width: 100%;
-        white-space: normal;
-        word-break: break-word;
-        font-size: 13px;
+        max-width: 90%;
+        white-space: nowrap;
+        /* Evita que se corte la palabra */
+        font-size: 14px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
     }
 }
