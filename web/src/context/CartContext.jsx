@@ -18,7 +18,7 @@ export const CartProvider = ({ children }) => {
             }
             return [...prev, { ...product, quantity: 1 }];
         });
-        setIsCartOpen(true);
+        // La bolsa ya no se abre automáticamente
     };
 
     const removeFromCart = (id) => {
@@ -35,6 +35,10 @@ export const CartProvider = ({ children }) => {
         }));
     };
 
+    const clearCart = () => {
+        setCartItems([]);
+    };
+
     const cartTotal = cartItems.reduce((total, item) => total + (item.price * item.quantity), 0);
     const cartCount = cartItems.reduce((count, item) => count + item.quantity, 0);
 
@@ -44,6 +48,7 @@ export const CartProvider = ({ children }) => {
             addToCart,
             removeFromCart,
             updateQuantity,
+            clearCart,
             isCartOpen,
             setIsCartOpen,
             cartTotal,

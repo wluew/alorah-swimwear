@@ -1,0 +1,86 @@
+.checkout-page {
+    padding-top: 80px;
+    min-height: 100vh;
+    background: #fff;
+    padding-bottom: 50px;
+}
+
+.checkout-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.checkout-form-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.checkout-form-group {
+    margin-bottom: 2rem;
+}
+
+.checkout-form-group h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    color: #666;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.input-field label {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.input-field input {
+    padding: 0.7rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.stripe-element-container {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.order-summary-section {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.summary-item-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.summary-row.total {
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+.pay-button {
+    width: 100%;
+    padding: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}

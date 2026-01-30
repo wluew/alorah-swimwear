@@ -1,10 +1,17 @@
 import React from 'react';
 import { X, Minus, Plus, ShoppingBag } from 'lucide-react';
 import { useCart } from '../context/CartContext';
+import { useNavigate } from 'react-router-dom';
 import './Cart.css';
 
 const Cart = () => {
     const { cartItems, isCartOpen, setIsCartOpen, removeFromCart, updateQuantity, cartTotal } = useCart();
+    const navigate = useNavigate();
+
+    const handleCheckout = () => {
+        setIsCartOpen(false);
+        navigate('/checkout');
+    };
 
     return (
         <>
@@ -60,7 +67,7 @@ const Cart = () => {
                             <span>${cartTotal}</span>
                         </div>
                         <p className="shipping-note">Impuestos y envío calculados al finalizar compra</p>
-                        <button className="checkout-btn btn btn-primary">Finalizar Compra</button>
+                        <button className="checkout-btn btn btn-primary" onClick={handleCheckout}>Finalizar Compra</button>
                     </div>
                 )}
             </div>

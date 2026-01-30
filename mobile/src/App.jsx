@@ -6,6 +6,8 @@ import Cart from './components/Cart';
 import { CartProvider } from './context/CartContext';
 import Home from './pages/Home';
 import About from './pages/About';
+import Checkout from './pages/Checkout';
+import OrderSuccess from './pages/OrderSuccess';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/order-success" element={<OrderSuccess />} />
           </Routes>
         </main>
         <footer className="footer container section-padding">

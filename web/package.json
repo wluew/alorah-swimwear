@@ -6,6 +6,8 @@
     "build": "vite build"
   },
   "dependencies": {
+    "@stripe/react-stripe-js": "^5.6.0",
+    "@stripe/stripe-js": "^8.7.0",
     "@vitejs/plugin-react": "^5.1.2",
     "lucide-react": "^0.563.0",
     "react": "^19.2.3",

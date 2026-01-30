@@ -1,0 +1,43 @@
+.order-success-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #fff;
+}
+
+.success-card {
+    text-align: center;
+    width: 100%;
+}
+
+.success-icon {
+    color: #4CAF50;
+    margin-bottom: 1.5rem;
+}
+
+.success-card h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.success-card p {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.order-details {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.success-card button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

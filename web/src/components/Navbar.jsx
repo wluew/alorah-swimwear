@@ -7,8 +7,17 @@ import './Navbar.css';
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isCountAnimating, setIsCountAnimating] = useState(false);
   const { setIsCartOpen, cartCount } = useCart();
   const location = useLocation();
+
+  useEffect(() => {
+    if (cartCount > 0) {
+      setIsCountAnimating(true);
+      const timer = setTimeout(() => setIsCountAnimating(false), 300);
+      return () => clearTimeout(timer);
+    }
+  }, [cartCount]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -47,7 +56,7 @@ const Navbar = () => {
           <button className="nav-icon-btn"><Search size={20} /></button>
           <button className="nav-icon-btn cart-btn" onClick={() => setIsCartOpen(true)}>
             <ShoppingBag size={20} />
-            <span className="cart-count">{cartCount}</span>
+            <span className={`cart-count ${isCountAnimating ? 'bump' : ''}`}>{cartCount}</span>
           </button>
         </div>
       </div>
