@@ -63,7 +63,7 @@ const Navbar = () => {
           </div>
 
           <div className="nav-center">
-            <Link to="/" className="logo">ALORAH</Link>
+            <Link to="/" className="logo">ALORA</Link>
           </div>
 
           <div className="nav-right">

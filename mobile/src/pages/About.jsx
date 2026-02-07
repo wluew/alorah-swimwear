@@ -18,7 +18,7 @@ const About = () => {
                 <div className="about-hero-content container">
                     <Reveal>
                         <span className="subtitle">Tu esencia bajo el sol</span>
-                        <h1>Alorah</h1>
+                        <h1>Alora</h1>
                         <p>Vistiendo tus mejores días, siempre.</p>
                     </Reveal>
                 </div>
@@ -32,7 +32,7 @@ const About = () => {
                             <div className="about-text-block">
                                 <h2>Tu esencia bajo el sol</h2>
                                 <p>
-                                    En Alorah, entendemos que la conexión con el mar no entiende de calendarios.
+                                    En Alora, entendemos que la conexión con el mar no entiende de calendarios.
                                     Vivimos donde el sol es una constante y el salitre es parte de nuestra historia.
                                     No nacimos simplemente para crear bikinis; nacimos para celebrar la libertad de
                                     ser mujer y la magia de esos momentos eternos donde el agua y la piel se encuentran.
@@ -42,7 +42,7 @@ const About = () => {
 
                         <Reveal delay="0.2s">
                             <div className="about-image">
-                                <img src={aboutImages[0]} alt="Alorah Swimwear" />
+                                <img src={aboutImages[0]} alt="Alora Swimwear" />
                             </div>
                         </Reveal>
                     </div>
@@ -76,7 +76,7 @@ const About = () => {
                                 <h2>Tu seguridad es nuestra prioridad</h2>
                                 <p>
                                     Sabemos que un traje de baño es la prenda más íntima que compartes con el mundo.
-                                    Por eso, en Alorah queremos que, al mirarte al espejo, veas algo más que una prenda:
+                                    Por eso, en Alora queremos que, al mirarte al espejo, veas algo más que una prenda:
                                     veas una versión de ti que se celebra, se acepta y se disfruta.
                                 </p>
                                 <p>
@@ -105,7 +105,7 @@ const About = () => {
                                 espontánea, vistiendo esos instantes donde el sol te toca la piel y sientes que,
                                 sencillamente, aquí es donde quieres estar.
                             </p>
-                            <h3>Alorah: Vistiendo tus mejores días, siempre.</h3>
+                            <h3>Alora: Vistiendo tus mejores días, siempre.</h3>
                             <a href="/#collections" className="btn btn-primary">Explorar Colección</a>
                         </div>
                     </Reveal>

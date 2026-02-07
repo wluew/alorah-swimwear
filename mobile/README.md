@@ -1,4 +1,4 @@
-# Alorah Swimwear - Versión Móvil Optimizada
+# Alora Swimwear - Versión Móvil Optimizada
 
 ## 📱 Optimizaciones Móviles
 
@@ -74,7 +74,7 @@ Desktop: > 768px (layout completo)
 ## 🚀 Instalación
 
 ```bash
-cd alorah-mobile
+cd alora-mobile
 npm install
 npm run dev
 ```
@@ -82,15 +82,15 @@ npm run dev
 ## 📦 Estructura de Archivos
 
 ```
-alorah-mobile/
+alora-mobile/
 ├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx (optimizado para móvil)
-│   │   ├── Navbar.css (mobile-first)
-│   │   └── ... (otros componentes)
-│   ├── App.jsx (lazy loading, delays reducidos)
-│   ├── App.css (mobile-first layouts)
-│   └── index.css (base styles optimizados)
+├── components/
+│   ├── Navbar.jsx (optimizado para móvil)
+│   ├── Navbar.css (mobile-first)
+│   └── ... (otros componentes)
+├── App.jsx (lazy loading, delays reducidos)
+├── App.css (mobile-first layouts)
+└── index.css (base styles optimizados)
 ├── package.json
 └── vite.config.js
 ```
@@ -123,4 +123,4 @@ alorah-mobile/
 
 **Versión**: 1.0.0 Mobile  
 **Fecha**: Enero 2026  
-**Basado en**: Alorah Desktop v1.0.0
+**Basado en**: Alora Desktop v1.0.0

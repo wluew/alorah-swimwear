@@ -18,7 +18,7 @@ const About = () => {
                 <div className="about-hero-content container">
                     <Reveal>
                         <span className="subtitle">Tu esencia, siempre presente</span>
-                        <h1>Alorah</h1>
+                        <h1>Alora</h1>
                         <p>Vistiendo tu mejor versión.</p>
                     </Reveal>
                 </div>
@@ -32,7 +32,7 @@ const About = () => {
                             <div className="about-text-block">
                                 <h2>Tu esencia, siempre presente</h2>
                                 <p>
-                                    En Alorah, creemos que la relación con el mar es una forma de libertad. No diseñamos
+                                    En Alora, creemos que la relación con el mar es una forma de libertad. No diseñamos
                                     simplemente trajes de baño; creamos piezas que celebran a la mujer que se siente plena
                                     siendo ella misma, sin filtros y sin pretensiones.
                                 </p>
@@ -41,7 +41,7 @@ const About = () => {
 
                         <Reveal delay="0.2s">
                             <div className="about-image">
-                                <img src={aboutImages[0]} alt="Alorah Swimwear" />
+                                <img src={aboutImages[0]} alt="Alora Swimwear" />
                             </div>
                         </Reveal>
                     </div>
@@ -75,7 +75,7 @@ const About = () => {
                                 <h2>Seguridad en cada detalle</h2>
                                 <p>
                                     Entendemos que un traje de baño es mucho más que una prenda: es actitud y confianza.
-                                    En Alorah, trabajamos para que, al mirarte al espejo, veas una versión de ti que se
+                                    En Alora, trabajamos para que, al mirarte al espejo, veas una versión de ti que se
                                     quiere, se acepta y se disfruta.
                                 </p>
                                 <p>
@@ -104,7 +104,7 @@ const About = () => {
                                 quisiste hacer. Estamos aquí para vestir tus mejores momentos y recordarte que, cuando
                                 te sientes bien contigo misma, estás exactamente donde quieres estar.
                             </p>
-                            <h3>Alorah: Vistiendo tu mejor versión.</h3>
+                            <h3>Alora: Vistiendo tu mejor versión.</h3>
                             <a href="/#collections" className="btn btn-primary">Explorar Colección</a>
                         </div>
                     </Reveal>

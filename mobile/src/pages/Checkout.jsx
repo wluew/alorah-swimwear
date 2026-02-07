@@ -53,7 +53,7 @@ const CheckoutForm = () => {
                 payment_method: {
                     card: elements.getElement(CardElement),
                     billing_details: {
-                        name: document.getElementById('checkout-name-mobile')?.value || 'Cliente Alorah Mobile',
+                        name: document.getElementById('checkout-name-mobile')?.value || 'Cliente Alora Mobile',
                         email: document.getElementById('checkout-email-mobile')?.value,
                     },
                 },

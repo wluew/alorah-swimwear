@@ -26,7 +26,7 @@ function App() {
         <footer className="footer container section-padding">
           <div className="footer-content">
             <div className="footer-brand">
-              <h3>ALORAH</h3>
+              <h3>ALORA</h3>
               <p>Lujo tropical para la musa moderna.</p>
             </div>
             <div className="footer-links">
@@ -49,7 +49,7 @@ function App() {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2026 Alorah Swimwear. Todos los derechos reservados.</p>
+            <p>&copy; 2026 Alora Swimwear. Todos los derechos reservados.</p>
           </div>
         </footer>
       </div>

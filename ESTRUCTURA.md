@@ -3,14 +3,14 @@
 ## 🌳 Árbol de Directorios
 
 ```
-c:\Users\William\Desktop\proyectos\
+proyectos/
 │
 ├── 📄 VERSIONES.md              ← Comparación de las 3 versiones
 ├── 📄 INSTALACION.md            ← Guía de instalación rápida
 ├── 📄 RESUMEN.md                ← Resumen visual de optimizaciones
 ├── 📄 DIFERENCIAS_CODIGO.md     ← Comparación de código
 │
-├── 📂 alorah/                   ← VERSIÓN ORIGINAL (desarrollo)
+├── 📂 alora/                    ← VERSIÓN ORIGINAL (desarrollo)
 │   ├── 📂 node_modules/
 │   ├── 📂 dist/
 │   ├── 📂 src/
@@ -39,7 +39,7 @@ c:\Users\William\Desktop\proyectos\
 │   ├── vite.config.js
 │   └── .gitignore
 │
-├── 📂 alorah-desktop/           ← BACKUP VERSIÓN DESKTOP
+├── 📂 alora-desktop/            ← BACKUP VERSIÓN DESKTOP
 │   ├── 📂 node_modules/         (completo - copiado)
 │   ├── 📂 src/                  (completo - copiado)
 │   ├── index.html
@@ -47,7 +47,7 @@ c:\Users\William\Desktop\proyectos\
 │   ├── vite.config.js
 │   └── .gitignore
 │
-└── 📂 alorah-mobile/            ← VERSIÓN MÓVIL OPTIMIZADA ⭐
+└── 📂 alora-mobile/             ← VERSIÓN MÓVIL OPTIMIZADA ⭐
     ├── 📄 README.md             ← Documentación móvil
     ├── 📂 src/
     │   ├── 📂 components/
@@ -84,21 +84,21 @@ c:\Users\William\Desktop\proyectos\
 
 | Versión | Archivos Fuente | Optimizados | Copiados |
 |---------|-----------------|-------------|----------|
-| alorah (original) | ~20 | - | - |
-| alorah-desktop | ~20 | 0 | 20 |
-| alorah-mobile | ~20 | 7 | 13 |
+| alora (original) | ~20 | - | - |
+| alora-desktop | ~20 | 0 | 20 |
+| alora-mobile | ~20 | 7 | 13 |
 
 ### Tamaño de Archivos (src/):
 
 ```
-alorah-mobile/src/
+alora-mobile/src/
 ├── index.css        2.9 KB  (vs 1.8 KB desktop) +61%
 ├── App.css          5.0 KB  (vs 3.7 KB desktop) +35%
 ├── App.jsx         10.9 KB  (vs 10.7 KB desktop) +2%
 ├── Navbar.jsx       2.8 KB  (vs 1.8 KB desktop) +56%
 ├── Navbar.css       4.5 KB  (vs 1.9 KB desktop) +137%
 ├── Hero.jsx         2.0 KB  (vs 1.9 KB desktop) +5%
-└── Hero.css         4.7 KB  (vs 2.8 KB desktop) +68%
+├── Hero.css         4.7 KB  (vs 2.8 KB desktop) +68%
 ```
 
 **Nota**: El aumento de tamaño se debe a:
@@ -198,7 +198,7 @@ proyectos/
 
 ### 📱 Específicos de Móvil:
 ```
-alorah-mobile/
+alora-mobile/
 └── README.md              - Documentación completa móvil
 ```
 
@@ -209,7 +209,7 @@ alorah-mobile/
 ### Alta Prioridad (Revisar primero):
 1. `VERSIONES.md` - Entender las diferencias
 2. `INSTALACION.md` - Cómo empezar
-3. `alorah-mobile/README.md` - Detalles móvil
+3. `alora-mobile/README.md` - Detalles móvil
 
 ### Media Prioridad:
 4. `RESUMEN.md` - Overview visual

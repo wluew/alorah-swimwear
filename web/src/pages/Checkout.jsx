@@ -56,7 +56,7 @@ const CheckoutForm = () => {
                 payment_method: {
                     card: elements.getElement(CardElement),
                     billing_details: {
-                        name: document.getElementById('checkout-name')?.value || 'Cliente Alorah',
+                        name: document.getElementById('checkout-name')?.value || 'Cliente Alora',
                         email: document.getElementById('checkout-email')?.value,
                     },
                 },

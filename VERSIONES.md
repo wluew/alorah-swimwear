@@ -1,17 +1,17 @@
-# 📱 Alorah Swimwear - Versiones del Proyecto
+# 📱 Alora Swimwear - Versiones del Proyecto
 
 ## 📂 Estructura de Carpetas
 
 ```
 proyectos/
-├── alorah/              # Versión original (en desarrollo)
-├── alorah-desktop/      # Backup de la versión desktop
-└── alorah-mobile/       # Versión optimizada para móvil
+├── alora/               # Versión original (en desarrollo)
+├── alora-desktop/       # Backup de la versión desktop
+└── alora-mobile/        # Versión optimizada para móvil
 ```
 
 ## 🎯 Resumen de Versiones
 
-### 📱 **alorah-mobile** (NUEVA)
+### 📱 **alora-mobile** (NUEVA)
 **Propósito**: Versión optimizada específicamente para dispositivos móviles
 
 **Características principales**:
@@ -55,7 +55,7 @@ Animation distance: 20px (vs 40px)
 
 ---
 
-### 💻 **alorah-desktop** (BACKUP)
+### 💻 **alora-desktop** (BACKUP)
 **Propósito**: Copia de seguridad de la versión original
 
 **Características**:
@@ -69,7 +69,7 @@ Animation distance: 20px (vs 40px)
 
 ---
 
-### 🔧 **alorah** (ORIGINAL)
+### 🔧 **alora** (ORIGINAL)
 **Propósito**: Versión de desarrollo activa
 
 **Estado**: Continúa siendo tu versión de trabajo principal
@@ -80,21 +80,21 @@ Animation distance: 20px (vs 40px)
 
 ### Para trabajar en la versión móvil:
 ```bash
-cd alorah-mobile
+cd alora-mobile
 npm install
 npm run dev
 ```
 
 ### Para trabajar en la versión desktop:
 ```bash
-cd alorah-desktop
+cd alora-desktop
 npm install
 npm run dev
 ```
 
 ### Para continuar con la versión original:
 ```bash
-cd alorah
+cd alora
 npm run dev
 ```
 
@@ -184,19 +184,19 @@ grid-template-columns: repeat(2, 1fr); /* tablet */
 
 ## 🎯 Recomendaciones de Uso
 
-**Usa `alorah-mobile` si**:
+**Usa `alora-mobile` si**:
 - Tus usuarios son principalmente móviles
 - Necesitas máximo rendimiento en dispositivos móviles
 - Quieres una experiencia táctil optimizada
 - Priorizas velocidad de carga
 
-**Usa `alorah-desktop` si**:
+**Usa `alora-desktop` si**:
 - Tus usuarios son principalmente desktop
 - Quieres animaciones más elaboradas
 - Necesitas layouts complejos multi-columna
 - Priorizas efectos visuales
 
-**Usa `alorah` (original) para**:
+**Usa `alora` (original) para**:
 - Desarrollo y experimentación
 - Nuevas características
 - Testing de cambios

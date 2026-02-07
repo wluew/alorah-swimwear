@@ -8,14 +8,14 @@ const Hero = () => {
     return (
         <section className="hero">
             <div className="hero-image-container">
-                <img src={heroImage} alt="Alorah Swimwear Collection" className="hero-bg" />
+                <img src={heroImage} alt="Alora Swimwear Collection" className="hero-bg" />
                 <div className="hero-overlay"></div>
             </div>
 
             <div className="hero-content container">
                 <h1 className="animate-fade-up">Elegancia Tropical <br /><span>Redefinida</span></h1>
                 <p className="animate-fade-up" style={{ animationDelay: '0.2s' }}>
-                    Descubre la nueva colección de Alorah Swimwear. Inspirada por el sol,
+                    Descubre la nueva colección de Alora Swimwear. Inspirada por el sol,
                     creada para la musa moderna.
                 </p>
                 <div className="hero-actions animate-fade-up" style={{ animationDelay: '0.4s' }}>

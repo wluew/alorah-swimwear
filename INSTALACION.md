@@ -1,10 +1,10 @@
 # 🚀 Guía de Instalación Rápida
 
-## 📱 Versión Móvil (alorah-mobile)
+## 📱 Versión Móvil (alora-mobile)
 
 ### Instalación
 ```bash
-cd c:\Users\William\Desktop\proyectos\alorah-mobile
+cd alora-mobile
 npm install
 ```
 
@@ -20,11 +20,11 @@ npm run build
 
 ---
 
-## 💻 Versión Desktop (alorah-desktop)
+## 💻 Versión Desktop (alora-desktop)
 
 ### Instalación
 ```bash
-cd c:\Users\William\Desktop\proyectos\alorah-desktop
+cd alora-desktop
 npm install
 ```
 

@@ -1,13 +1,13 @@
-# 📱 Alorah Swimwear - Resumen de Optimizaciones Móviles
+# 📱 Alora Swimwear - Resumen de Optimizaciones Móviles
 
 ## ✨ Lo que se ha creado
 
-### 1. **alorah-desktop** ✅
+### 1. **alora-desktop** ✅
 - Copia completa de seguridad de tu versión original
 - Preserva todas las características desktop
 - Listo para desarrollo desktop
 
-### 2. **alorah-mobile** ✅ (NUEVO)
+### 2. **alora-mobile** ✅ (NUEVO)
 - Versión completamente optimizada para móvil
 - Mobile-first design
 - Rendimiento mejorado
@@ -59,7 +59,7 @@
 
 ## 📊 Comparación Visual
 
-### Desktop (alorah-desktop)
+### Desktop (alora-desktop)
 ```
 ┌─────────────────────────────────┐
 │  Logo    Links    Links   🔍 🛒 │ ← 80px navbar
@@ -73,7 +73,7 @@
 └─────────────────────────────────┘
 ```
 
-### Móvil (alorah-mobile)
+### Móvil (alora-mobile)
 ```
 ┌──────────────┐
 │ ☰  Logo  🔍🛒│ ← 60px navbar
@@ -118,7 +118,7 @@
 
 ### Instalar versión móvil:
 ```bash
-cd c:\Users\William\Desktop\proyectos\alorah-mobile
+cd alora-mobile
 npm install
 npm run dev
 ```
@@ -171,7 +171,7 @@ Mobile Usability:      ✅ 100/100
 
 ## 📝 Documentación Creada
 
-1. **README.md** (en alorah-mobile)
+1. **README.md** (en alora-mobile)
    - Optimizaciones detalladas
    - Comparación técnica
    - Próximas mejoras

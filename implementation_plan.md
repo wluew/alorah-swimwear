@@ -1,6 +1,6 @@
-# Implementation Plan - Alorah Swimwear E-commerce
+# Implementation Plan - Alora Swimwear E-commerce
 
-Alorah Swimwear is a premium swimwear brand. The goal is to create a stunning, "tropical-luxe" e-commerce experience inspired by Reef.com, using Vite, React, and Vanilla CSS.
+Alora Swimwear is a premium swimwear brand. The goal is to create a stunning, "tropical-luxe" e-commerce experience inspired by Reef.com, using Vite, React, and Vanilla CSS.
 
 ## 1. Design System & Foundation
 - [ ] Define tropical color palette (Teal, Coral, Sand, Deep Sea).
@@ -12,7 +12,7 @@ Alorah Swimwear is a premium swimwear brand. The goal is to create a stunning, "
 - [ ] **Hero Section**: Full-screen immersive image/video with elegant typography and tropical animations.
 - [ ] **Featured Collection**: Horizontal scroll or grid showing flagship swimwear.
 - [ ] **Category Showcase**: Visual tiles for "Bikinis", "One-Pieces", "Accessories".
-- [ ] **Instagram Integration**: A grid reflecting the latest Alorah Swimwear Instagram posts.
+- [ ] **Instagram Integration**: A grid reflecting the latest Alora Swimwear Instagram posts.
 - [ ] **Newsletter/Brand Story**: Elegant section about the brand's tropical roots.
 
 ## 3. Product Features

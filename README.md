@@ -1,4 +1,4 @@
-# 📚 Índice de Documentación - Alorah Swimwear
+# 📚 Índice de Documentación - Alora Swimwear
 
 ## 🎯 Inicio Rápido
 
@@ -14,7 +14,7 @@
    - Cómo probar en móvil
    - Solución de problemas
 
-3. **[alorah-mobile/README.md](alorah-mobile/README.md)**
+3. **[alora-mobile/README.md](alora-mobile/README.md)**
    - Detalles de optimizaciones móviles
    - Características específicas
    - Próximas mejoras
@@ -34,7 +34,7 @@
 | Documento | Descripción | Para quién |
 |-----------|-------------|------------|
 | **[INSTALACION.md](INSTALACION.md)** | Instalación y ejecución | Todos |
-| **[alorah-mobile/README.md](alorah-mobile/README.md)** | Guía completa móvil | Desarrolladores móvil |
+| **[alora-mobile/README.md](alora-mobile/README.md)** | Guía completa móvil | Desarrolladores móvil |
 
 ### 🔍 Referencia Técnica
 | Documento | Descripción | Para quién |
@@ -57,11 +57,11 @@ proyectos/
 │   ├── DIFERENCIAS_CODIGO.md      ← Comparación de código
 │   └── ESTRUCTURA.md              ← Árbol de archivos
 │
-├── 📂 alorah/                     ← Versión original
+├── 📂 alora/                      ← Versión original
 │
-├── 📂 alorah-desktop/             ← Backup desktop
+├── 📂 alora-desktop/              ← Backup desktop
 │
-└── 📂 alorah-mobile/              ← Versión móvil ⭐
+└── 📂 alora-mobile/               ← Versión móvil ⭐
     └── README.md                  ← Docs específicas móvil
 ```
 
@@ -80,7 +80,7 @@ proyectos/
 3. Revisa [DIFERENCIAS_CODIGO.md](DIFERENCIAS_CODIGO.md)
 
 ### "Quiero desarrollar para móvil"
-1. Lee [alorah-mobile/README.md](alorah-mobile/README.md)
+1. Lee [alora-mobile/README.md](alora-mobile/README.md)
 2. Revisa [DIFERENCIAS_CODIGO.md](DIFERENCIAS_CODIGO.md)
 3. Consulta [ESTRUCTURA.md](ESTRUCTURA.md)
 
@@ -96,9 +96,9 @@ proyectos/
 ### ✅ Lo que tienes:
 
 **3 Versiones del Proyecto:**
-- `alorah` - Original en desarrollo
-- `alorah-desktop` - Backup desktop completo
-- `alorah-mobile` - Optimizada para móvil ⭐
+- `alora` - Original en desarrollo
+- `alora-desktop` - Backup desktop completo
+- `alora-mobile` - Optimizada para móvil ⭐
 
 **6 Documentos:**
 - README.md (este)
@@ -109,7 +109,7 @@ proyectos/
 - ESTRUCTURA.md
 
 **+ 1 Documento Específico:**
-- alorah-mobile/README.md
+- alora-mobile/README.md
 
 ### 🎯 Optimizaciones Móviles:
 
@@ -144,7 +144,7 @@ proyectos/
 │  └─→ ESTRUCTURA.md
 │
 └─ Desarrollar móvil
-   └─→ alorah-mobile/README.md
+   └─→ alora-mobile/README.md
 ```
 
 ---
@@ -166,7 +166,7 @@ proyectos/
 - `src/components/Hero.css` - Layout responsive
 
 ### Documentación:
-- [README.md](alorah-mobile/README.md) - Completa
+- [README.md](alora-mobile/README.md) - Completa
 
 ---
 
@@ -180,8 +180,8 @@ proyectos/
 - ✅ Navbar horizontal
 
 ### Estado:
-- ✅ Backup completo en `alorah-desktop/`
-- ✅ Original continúa en `alorah/`
+- ✅ Backup completo en `alora-desktop/`
+- ✅ Original continúa en `alora/`
 
 ---
 
@@ -190,7 +190,7 @@ proyectos/
 ### Cualquier versión:
 ```bash
 # Navegar
-cd alorah-mobile  # o alorah-desktop
+cd alora-mobile  # o alora-desktop
 
 # Instalar
 npm install
@@ -243,7 +243,7 @@ Antes de empezar, asegúrate de:
 ## 🎓 Recursos Adicionales
 
 ### Dentro del Proyecto:
-- `alorah-mobile/README.md` - Optimizaciones móviles
+- `alora-mobile/README.md` - Optimizaciones móviles
 - `DIFERENCIAS_CODIGO.md` - Comparación técnica
 - `ESTRUCTURA.md` - Árbol de archivos
 
@@ -310,10 +310,10 @@ Antes de empezar, asegúrate de:
 | 4 | RESUMEN.md | ~10KB | Resumen visual |
 | 5 | DIFERENCIAS_CODIGO.md | ~8KB | Comparación código |
 | 6 | ESTRUCTURA.md | ~9KB | Árbol archivos |
-| 7 | alorah-mobile/README.md | ~4KB | Docs móvil |
+| 7 | alora-mobile/README.md | ~4KB | Docs móvil |
 
 **Total documentación**: ~54KB
 
 ---
 
-¡Disfruta desarrollando con Alorah Swimwear! 🏊‍♀️✨
+¡Disfruta desarrollando con Alora Swimwear! 🏊‍♀️✨

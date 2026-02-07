@@ -96,9 +96,9 @@ const Home = () => {
                     <Reveal duration="0.8s" delay="0.1s">
                         <div className="brand-story-content">
                             <span className="subtitle">Tu esencia bajo el sol</span>
-                            <h2>Alorah: Vistiendo tus mejores días</h2>
+                            <h2>Alora: Vistiendo tus mejores días</h2>
                             <p>
-                                En Alorah, entendemos que la conexión con el mar no entiende de calendarios.
+                                En Alora, entendemos que la conexión con el mar no entiende de calendarios.
                                 No nacimos simplemente para crear bikinis; nacimos para celebrar la libertad de
                                 ser mujer y la magia de esos momentos eternos donde el agua y la piel se encuentran.
                             </p>
@@ -134,7 +134,7 @@ const Home = () => {
                     <Reveal>
                         <div className="section-header">
                             <h2>Visto en Instagram</h2>
-                            <p>Etiquétanos @AlorahSwimwear para aparecer aquí.</p>
+                            <p>Etiquétanos @AloraSwimwear para aparecer aquí.</p>
                         </div>
                     </Reveal>
                     <div className="instagram-grid">

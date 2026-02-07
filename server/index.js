@@ -35,4 +35,4 @@ app.post('/create-payment-intent', async (req, res) => {
 });
 
 const PORT = process.env.PORT || 4242;
-app.listen(PORT, () => console.log(`Servidor de Alorah corriendo en puerto ${PORT}`));
+app.listen(PORT, () => console.log(`Servidor de Alora corriendo en puerto ${PORT}`));
